@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body, html{
+  min-height:100vh;
+  height: 100%;
+}
+button{
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: .8rem 1.5rem;
+  background: linear-gradient(90deg, #ff7300, #f3a143);
+  color: #fff;
+  border:none;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+button:hover{
+  background: linear-gradient(90deg, #f3a143, #ff7300);
+}

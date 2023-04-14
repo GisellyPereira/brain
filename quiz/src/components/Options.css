@@ -1,0 +1,39 @@
+.divOption{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #f3a143;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    font-weight: 500;
+    background: #ff7300;
+    opacity: 0.8;
+    color: #fff;
+    
+}
+.divOption:hover{
+   opacity: 1;
+    color: #fff;
+}
+.correct{
+    background: #00ff00;
+    font-weight: bold;
+    border: none;
+}
+.wrong{
+    background: #f3a143;
+    opacity: 0.4;
+    font-weight: bold;
+}
+@media(max-width: 670px){
+    .divOption{
+        font-size: 15px;
+        
+    }
+
+}

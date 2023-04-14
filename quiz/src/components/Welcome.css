@@ -1,0 +1,114 @@
+.welcome-tudo{
+    background-image: url(../img/bkg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+.img-mulher{
+    width: 400px;
+    height: 400px;
+}
+.Welcome-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+.Welcome-Titles h1{
+    text-align: center;
+    font-size: 50px;
+  color: #f3a143;
+}
+.Welcome-Titles h3{
+    text-align: center;
+    background-color: #ff7300;
+    color: #fff;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 12px;
+ 
+}
+.h3-button{
+      text-align: center;
+   margin-bottom: 20px;
+    font-size: 25px;
+    color: #ff7300;
+}
+.welcome-button{
+    font-size: 30px;
+    padding: 15px 30px;
+    color: #ff7300;
+    background: #fff;
+    border: #ff7300 2px solid;
+
+}
+.welcome-button:hover{
+    background: #ff7300;
+    color: #fff;
+}
+@media(max-width: 1315px){
+    .welcome-tudo{
+        background-image: none;
+    }
+    .Welcome-Titles h1{
+        font-size: 40px;
+    }
+    .Welcome-Titles h3{
+        font-size: 22px;
+    }
+    .welcome-button{
+        font-size: 25px;
+        padding: 10px 20px;
+    }
+    .h3-button{
+        font-size: 20px;
+    }
+    .img-mulher{
+        width: 350px;
+        height: 350px;
+    }
+}
+@media(max-width: 768px){
+    .Welcome-Titles h1{
+        font-size: 30px;
+    }
+    .Welcome-Titles h3{
+        font-size: 20px;
+    }
+    .welcome-button{
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    .h3-button{
+        font-size: 20px;
+    }
+    .img-mulher{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media(max-width: 670px){
+    .Welcome-container{
+        flex-direction: column;
+        margin-top: 10rem;
+    }
+    .Welcome-Titles h1{
+        font-size: 28px;
+    }
+    .Welcome-Titles h3{
+        font-size: 16px;
+    }
+    .welcome-button{
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .h3-button{
+        font-size: 18px;
+    }
+    .img-mulher{
+        width: 250px;
+        height: 250px;
+    }
+}
