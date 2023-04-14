@@ -2,7 +2,7 @@ import React from "react";
 import "./Question.css";
 import { useContext } from "react";
 import { QuizContext } from "../context/quiz.jsx";
-import Options from "./Options.jsx";
+import Options from "./Options.jsx.js";
 
 const Question = () => {
   const [quizState, dispatch] = useContext(QuizContext);
