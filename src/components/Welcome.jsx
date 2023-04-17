@@ -19,7 +19,7 @@ const Welcome = () => {
         <img className="img-mulher" src={Img} alt="imagem" />
       </div>
       <h3 className="h3-button">Clique no botão abaixo para começar</h3>
-      <button className="welcome-button" onClick={()=> dispatch({type: "CHANGE_STATE"})}>Start</button>
+      <button className="welcome-button" onClick={()=> dispatch({type: "CHANGE_STATE"})}>Iniciar</button>
     </div>
   );
 };

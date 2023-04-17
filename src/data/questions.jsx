@@ -72,7 +72,7 @@ const data = [
   {
   question: "Qual é o nome da estrela mais próxima da Terra?",
   options: ["Próxima Centauri", "Sirius", "Betelgeuse", "Alfa Centauri"],
-  answer: "Próxima Centauri",
+  answer: "Alfa Centauri",
   },
   {
     question: "Qual é o nome do ator que interpreta o personagem Homem de Ferro, nos filmes da Marvel?",
